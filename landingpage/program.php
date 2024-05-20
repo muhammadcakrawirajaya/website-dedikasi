@@ -2,7 +2,7 @@
     <div class="program-container">
         <div class="program-title">
             <h3 class="subtitle">Kategori</h3>
-            <h1 class="title">Program Kegiatan<span class="bold"> DEDIKASI</span></h1>
+            <h1 class="title">Program Kegiatan<span class="bold"> DEDIKASI.</span></h1>
             <img src="<?= ROOT_URL ?>assets/icon/shape1.png" alt="" class="title-icon">
         </div>
         <div class="card-wrapper">

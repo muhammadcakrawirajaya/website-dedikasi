@@ -29,7 +29,7 @@ if(isset($_POST['submit'])){
 
                 // set session for access control
                 $_SESSION['user-id'] = $user_record['id'];
-                $_SESSION['signin-success'] = "User successfully logged in";
+                $_SESSION['signin-success'] = "Admin berhasil login";
 
                 //set session if user is  admin
                 if($user_record['is_admin']==1){
@@ -40,12 +40,12 @@ if(isset($_POST['submit'])){
                 header('location: ' . ROOT_URL . 'admin/index.php');
                 
             }else{
-                $_SESSION['signin'] = "Please check your input";
+                $_SESSION['signin'] = "Password salah!";
             }
         }else{
             $a = mysqli_num_rows($fetch_user_result);
             echo mysqli_num_rows($fetch_user_result);
-            $_SESSION['signin'] = "User Not found";
+            $_SESSION['signin'] = "Admin tidak ditemukan";
         }
     }
 

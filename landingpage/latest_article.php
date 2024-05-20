@@ -74,7 +74,7 @@ if (!$posts) {
         <div class="container posts__container">
             <?php while ($post = mysqli_fetch_assoc($posts)): ?>
                 <article class="post">
-                    <div class="post__thumbnail" style="width: 300px; height: 200px;">
+                    <div class="post__thumbnail" >
                         <img src="./images/<?= $post['thumbnail'] ?>">
                     </div>
                     <div class="post__info">

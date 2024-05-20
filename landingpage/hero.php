@@ -15,7 +15,7 @@ $date = $row['date'];
 $title = $row['title'];
 $subtitle = $row['subtitle'];
 $descripton = $row['description'];
-$guide_link = $row['link_pantwon'];
+$guide_link = $row['link_panduan'];
 $sign_link = $row['link_daftar'];
 $video_url = $row['link_video'];
 ?>

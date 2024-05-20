@@ -93,7 +93,7 @@ require 'config/database.php';
                     </ul>
                 </div>
                 <div class="button" style="--i: 1.8s">
-                    <a href="<?= ROOT_URL ?>login.php">More Info</a>
+                    <a href="https://linktr.ee/dedikasi.in" target="blank">More Info</a>
                 </div>
             </div>
             <div class="hamburger-menu-container">

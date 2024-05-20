@@ -16,12 +16,10 @@
                 <main class="test-card-body">
                     <div class="quote">
                         <i class="fa fa-quote-left"></i>
-                        <h2>Awesome Coding</h2>
+                        <h2>Menginspirasi</h2>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse.</p>
+                    <p>Ikut kegiatan pengabdian bareng DEDIKASI bener bener banyak hal yang bisa dipelajari dan
+                        menginspirasi banget.</p>
                     <div class="ratings">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -31,12 +29,12 @@
                     </div>
                 </main>
                 <div class="profile">
-                    <div class="profile-image">
+                    <!-- <div class="profile-image">
                         <img src="image1.jpg">
-                    </div>
+                    </div> -->
                     <div class="profile-desc">
-                        <span>Person Name</span>
-                        <span>Description</span>
+                        <span>Alila</span>
+                        <span>Mahasiswa</span>
                     </div>
                 </div>
             </div>
@@ -47,12 +45,10 @@
                 <main class="test-card-body">
                     <div class="quote">
                         <i class="fa fa-quote-left"></i>
-                        <h2>Awesome Coding</h2>
+                        <h2>Cocok buat Gen-Z</h2>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse.</p>
+                    <p>Buar gen-z yang sering ngerasa kena mental health mending ikut pengabdian bareng DEDIKASI soalnya
+                        banyak hal yang bisa bikin kita semnagat hidup lagi. salam</p>
                     <div class="ratings">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -62,12 +58,12 @@
                     </div>
                 </main>
                 <div class="profile">
-                    <div class="profile-image">
+                    <!-- <div class="profile-image">
                         <img src="image2.jpg">
-                    </div>
+                    </div> -->
                     <div class="profile-desc">
-                        <span>Person Name</span>
-                        <span>Description</span>
+                        <span>Denis</span>
+                        <span>Mahasiswa</span>
                     </div>
                 </div>
             </div>
@@ -78,12 +74,11 @@
                 <main class="test-card-body">
                     <div class="quote">
                         <i class="fa fa-quote-left"></i>
-                        <h2>Awesome Coding</h2>
+                        <h2>Pengalaman Luar Biasa</h2>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse.</p>
+                    <p>Pengalaman saya dengan Tim DEDIKASI adalah bukti nyata bahwa inspirasi tidak hanya datang dari
+                        kata-kata, tetapi juga dari tindakan. Mereka telah menjadi contoh yang hidup bagi kami semua,
+                        mengajarkan bahwa pengabdian tanpa pamrih dapat mengubah dunia.</p>
                     <div class="ratings">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -93,12 +88,12 @@
                     </div>
                 </main>
                 <div class="profile">
-                    <div class="profile-image">
+                    <!-- <div class="profile-image">
                         <img src="image3.jpg">
-                    </div>
+                    </div> -->
                     <div class="profile-desc">
-                        <span>Person Name</span>
-                        <span>Description</span>
+                        <span>Aji</span>
+                        <span>Karyawan Swasta</span>
                     </div>
                 </div>
             </div>
@@ -109,12 +104,9 @@
                 <main class="test-card-body">
                     <div class="quote">
                         <i class="fa fa-quote-left"></i>
-                        <h2>Awesome Coding</h2>
+                        <h2>DAEBAAAAKK !!!!</h2>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse.</p>
+                    <p>ASLIII SERUU BANGET, gue ga nyangka pengabdian masyarakat bisa seseru itu, btw gue ikut yang self funded nya, karena emang jalur pendaftarannya tinggal itu doang</p>
                     <div class="ratings">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -124,12 +116,12 @@
                     </div>
                 </main>
                 <div class="profile">
-                    <div class="profile-image">
+                    <!-- <div class="profile-image">
                         <img src="image4.jpg">
-                    </div>
+                    </div> -->
                     <div class="profile-desc">
-                        <span>Person Name</span>
-                        <span>Description</span>
+                        <span>Nilla</span>
+                        <span>Mahasiswa</span>
                     </div>
                 </div>
             </div>
@@ -140,12 +132,9 @@
                 <main class="test-card-body">
                     <div class="quote">
                         <i class="fa fa-quote-left"></i>
-                        <h2>Awesome Coding</h2>
+                        <h2>Unforgetwebble</h2>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse.</p>
+                    <p>Seru banget jujur, pengalaman yang ga bisa dilupain, kakak kakaknya juga solutif, ramah, asik banget</p>
                     <div class="ratings">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -155,12 +144,12 @@
                     </div>
                 </main>
                 <div class="profile">
-                    <div class="profile-image">
+                    <!-- <div class="profile-image">
                         <img src="image5.jpg">
-                    </div>
+                    </div> -->
                     <div class="profile-desc">
-                        <span>Person Name</span>
-                        <span>Description</span>
+                        <span>zara</span>
+                        <span>Pelajar</span>
                     </div>
                 </div>
             </div>
@@ -171,12 +160,9 @@
                 <main class="test-card-body">
                     <div class="quote">
                         <i class="fa fa-quote-left"></i>
-                        <h2>Awesome Coding</h2>
+                        <h2>Capek tapi seru bingits</h2>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse.</p>
+                    <p>no komen deh pokoknya seru aja gitu</p>
                     <div class="ratings">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -186,12 +172,12 @@
                     </div>
                 </main>
                 <div class="profile">
-                    <div class="profile-image">
+                    <!-- <div class="profile-image">
                         <img src="image6.jpg">
-                    </div>
+                    </div> -->
                     <div class="profile-desc">
-                        <span>Person Name</span>
-                        <span>Description</span>
+                        <span>Dinda</span>
+                        <span>Karyawan PNS</span>
                     </div>
                 </div>
             </div>

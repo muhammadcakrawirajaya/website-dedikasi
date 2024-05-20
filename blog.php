@@ -16,18 +16,17 @@ $posts = mysqli_query($connection, $query);
 
 ?>
 <section class="article-menu">
-  <section class="search__bar">
-    <form class="container search__bar-container" action="<?= ROOT_URL ?>search.php" method="GET">
-      <div>
-        <i class="uil uil-search"></i>
-        <input type="search" name="search" placeholder="Search">
-        <button type="submit" name="submit" class="btn">Go</button>
-      </div>
+<section class="search__bar">
+  <form class="container search__bar-container" action="<?= ROOT_URL ?>search.php" method="GET" onsubmit="return validateSearch()">
+    <div>
+      <i class="uil uil-search"></i>
+      <input type="search" name="search" id="searchInput" placeholder="Ketik di sini..." oninput="toggleGoButton()">
+      <button type="submit" name="submit" id="goButton" class="btn" disabled>Cari</button>
+    </div>
+  </form>
+</section>
 
-    </form>
 
-
-  </section>
 
 
   <!-- ===================END OF SEARCH================-->
@@ -103,5 +102,5 @@ $posts = mysqli_query($connection, $query);
   <!--=======================END OF CATEGORY ===================================-->
 </section>
 <?php
-include './partials/footer.php';
+include './partials/foot.php';
 ?>

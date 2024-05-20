@@ -61,5 +61,5 @@ if (isset($_GET['id'])) {
 
 
 <?php
-include './partials/footer.php';
+include './partials/foot.php';
 ?>
