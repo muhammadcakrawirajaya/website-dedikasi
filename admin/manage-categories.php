@@ -60,55 +60,61 @@ $categories=mysqli_query($connection,$query)
     
             <aside>
                 <ul>
-                    <li>
-                        <a href="<?= ROOT_URL ?>admin/add-post.php">
-                            <i class="uil uil-pen"></i>
-                            <h5>Tambah Artikel</h5>
-                        </a>
-                    </li>                
-                        
-                    <li>
-                        <a href="<?= ROOT_URL ?>admin/index.php">
-                        <i class="uil uil-postcard"></i>                            
+                <li>
+                    <a href="<?= ROOT_URL ?>admin/manage-hero.php">
+                        <i class="uil uil-postcard"></i>
+                        <h5>Edit Hero</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?= ROOT_URL ?>admin/add-post.php">
+                        <i class="uil uil-pen"></i>
+                        <h5>Tambah Artikel</h5>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="<?= ROOT_URL ?>admin/index.php" class="active">
+                        <i class="uil uil-postcard"></i>
                         <h5>Edit Artikel</h5>
-                        </a>
-                    </li>
-                    <?php  if(isset($_SESSION['user_is_admin'])) : ?>
+                    </a>
+                </li>
+                <?php if (isset($_SESSION['user_is_admin'])): ?>
                     <li>
                         <a href="<?= ROOT_URL ?>admin/add-user.php">
-                            <i class="uil uil-user-plus"></i> 
+                            <i class="uil uil-user-plus"></i>
                             <h5>Tambah Pengguna</h5>
                         </a>
-                    </li>  
-    
+                    </li>
+
                     <li>
                         <a href="<?= ROOT_URL ?>admin/manage-users.php">
                             <i class="uil uil-users-alt"></i>
                             <h5>Edit Pengguna</h5>
                         </a>
-                    </li>                    
+                    </li>
                     <li>
                         <a href="<?= ROOT_URL ?>admin/add-category.php">
                             <i class="uil uil-edit"></i>
                             <h5>Tambah Kategori Artikel</h5>
                         </a>
-                    </li>                    
+                    </li>
                     <li>
                         <a href="<?= ROOT_URL ?>admin/manage-categories.php" class="active">
                             <i class="uil uil-list-ul"></i>
                             <h5>Edit Kategori Artikel</h5>
                         </a>
                     </li>
-                    <?php endif ?>
+                <?php endif ?>
                 </ul>
             </aside>
             <main>
-                <h2>Manage Categories</h2>
+                <h2>Edit Kategori Artikel</h2>
                 <?php if(mysqli_num_rows($categories)>0) : ?>
                 <table>
                     <thead>
                         <tr>
-                            <th>Title</th>
+                            <th>Nama Kategori</th>
                             <th>Edit</th>
                             <th>Delete</th>
                         </tr>

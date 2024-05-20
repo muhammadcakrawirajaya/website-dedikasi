@@ -36,6 +36,3 @@ if(isset($_GET['id'])){
 
 
 
-<?php
-include "../partials/footer.php";
-?>

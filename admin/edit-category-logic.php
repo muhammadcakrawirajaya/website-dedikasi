@@ -17,7 +17,7 @@ if(isset($_POST['submit'])){
         $result=mysqli_query($connection, $query);  
 
         if(mysqli_errno($connection)){
-            $_SESSION['edit-category'] = "Couldnt update category";
+            $_SESSION['edit-category'] = "Could'nt update category";
 
         }else{
             $_SESSION['edit-category-success'] = "$title Category was updated successfully";
