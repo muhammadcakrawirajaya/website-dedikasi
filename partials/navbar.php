@@ -54,27 +54,27 @@ require 'config/database.php';
                             <a href="<?= ROOT_URL ?>">Beranda</a>
                         </li>
                         <li class="nav-link" style="--i: .6s">
-                            <a href="#">Tentang</a>
+                            <a href="<?= ROOT_URL ?>about-us.php">Tentang</a>
                         </li>
                         <li class="nav-link" style="--i: .85s">
                             <a href="#">Program<i class="fas fa-caret-down"></i></a>
                             <div class="dropdown">
                                 <ul>
                                     <li class="dropdown-link">
-                                        <a href="#">Self Funded</a>
+                                        <a href="<?= ROOT_URL ?>self_funded.php">Self Funded</a>
                                     </li>
                                     <li class="dropdown-link">
-                                        <a href="#">Partial Funded</a>
+                                        <a href="<?= ROOT_URL ?>partial-funded.php">Partial Funded</a>
                                     </li>
                                     <li class="dropdown-link">
                                         <a href="#">Fully Funded<i class="fas fa-caret-down"></i></a>
                                         <div class="dropdown second">
                                             <ul>
                                                 <li class="dropdown-link">
-                                                    <a href="#">Reguler</a>
+                                                    <a href="<?= ROOT_URL ?>fully-funded-reguler.php">Reguler</a>
                                                 </li>
                                                 <li class="dropdown-link">
-                                                    <a href="#">Premium</a>
+                                                    <a href="<?= ROOT_URL ?>fully-funded-premium.php">Premium</a>
                                                 </li>
                                                 <div class="arrow"></div>
                                             </ul>
@@ -85,7 +85,7 @@ require 'config/database.php';
                             </div>
                         </li>
                         <li class="nav-link" style="--i: 1.35s">
-                            <a href="#">Dokumentasi</a>
+                            <a href="<?= ROOT_URL ?>documentation.php">Dokumentasi</a>
                         </li>
                         <li class="nav-link" style="--i: 1.35s">
                             <a href="<?= ROOT_URL ?>blog.php">Artikel</a>

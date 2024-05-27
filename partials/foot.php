@@ -5,7 +5,7 @@
                 <img src="<?= ROOT_URL ?>assets/icon/original_logo.png" class="footer-logo" alt="tunas_putih">
             </div>
             <div class="logo-des">
-                <p>DEDIKASI berkomitmen untuk terus memberikan mengedukasi serta memberdayakan masyarakat dalam pengabdian dan menjadi wadah untuk pemuda-pemudi Indonesia untuk mengabdi bagi pertiwi.</p>
+                <p>DEDIKASI berkomitmen untuk terus mengedukasi serta memberdayakan masyarakat dalam pengabdian dan menjadi wadah untuk pemuda-pemudi Indonesia untuk mengabdi bagi pertiwi.</p>
                 <!-- <a href="#" class="btn-know">Know More</a> -->
             </div>
         </div>

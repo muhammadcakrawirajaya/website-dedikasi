@@ -35,6 +35,3 @@ unset($_SESSION['add-category-data'])
 
 </section>
 
-<?php
-include "../partials/footer.php";
-?>

@@ -161,7 +161,3 @@ $users=mysqli_query($connection,$query);
         </div>
     </section>
  
-<?php
-include "../partials/footer.php";
-?>
-    

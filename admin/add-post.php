@@ -51,6 +51,3 @@ unset($_SESSION['add-post-data']);
     </div>
 </section>
 
-<?php
-include '../partials/footer.php';
-?>

@@ -74,7 +74,7 @@ $categories=mysqli_query($connection,$query)
                 </li>
 
                 <li>
-                    <a href="<?= ROOT_URL ?>admin/index.php" class="active">
+                    <a href="<?= ROOT_URL ?>admin/index.php">
                         <i class="uil uil-postcard"></i>
                         <h5>Edit Artikel</h5>
                     </a>
@@ -141,6 +141,3 @@ $categories=mysqli_query($connection,$query)
     
 
 
-<?php
-include "../partials/footer.php";
-?>

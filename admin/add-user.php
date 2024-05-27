@@ -74,6 +74,3 @@ unset($_SESSION['add-user-data']);
 
 
 
-<?php
-include '../partials/footer.php';
-?>

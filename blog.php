@@ -15,6 +15,9 @@ $posts = mysqli_query($connection, $query);
 
 
 ?>
+  <div class="blog-category__title">
+        <h2>ARTIKEL</h2>
+    </div>
 <section class="article-menu">
 <section class="search__bar">
   <form class="container search__bar-container" action="<?= ROOT_URL ?>search.php" method="GET" onsubmit="return validateSearch()">
